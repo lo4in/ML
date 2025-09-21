@@ -4,7 +4,7 @@ mnist =fetch_openml('mnist_784')
 
 X = mnist.data.values()
 
-from
+
 from sklearn.cluster import KMeans
 
 model = KMeans(n_clusters=10)
